@@ -2,7 +2,7 @@ import React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { Ionicons } from '@expo/vector-icons';
 
-import Favorites from '../pages/GiveClasses/Favorites';
+import Favorites from '../pages/Favorites';
 import TeacherList from '../pages/TeacherList';
 
 const { Navigator, Screen } = createBottomTabNavigator();
